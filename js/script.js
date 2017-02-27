@@ -1,4 +1,4 @@
-var siteHomePageUrl = "siteHomePageUrl+";
+var siteHomePageUrl = "http://www.iimt.me/";
 $(document).ready(function(){
   if (document.body.offsetWidth > 750) {
     $(function(){

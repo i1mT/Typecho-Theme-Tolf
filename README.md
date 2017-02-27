@@ -1,4 +1,4 @@
-## 模板必须将header.php script.js handler.js中的``` $siteHomePageUrl和siteHomePageUrl ```变亮替换为自己的首页地址
+## 模板必须将footer.php header.php script.js handler.js中的``` siteHomePageUrl ```替换为自己的首页地址
 
 ## 下面自定义
 1. 首页简介在index.php中修改
