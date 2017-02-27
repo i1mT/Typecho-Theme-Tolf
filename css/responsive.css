@@ -1,0 +1,170 @@
+@media screen and (max-width: 400px) {
+  html{
+    font-size: 10px;
+    background: #fff;
+  }
+  article{
+    width: 94%;
+  }
+  #myFullPage{
+    overflow: hidden;
+    position: relative;
+  }
+  .homePage{
+    height: 50rem;
+  }
+  .section{
+    overflow: hidden;
+  }
+  .ToHome{
+    display: none;
+  }
+  .title{
+    font-size: 3.5rem;
+    margin-top: 20rem;
+    margin-bottom: 1.5rem;
+  }
+  .intro1{
+    width: 86%;
+    margin: 0 auto;
+    display: block;
+    font-size: 1.7rem;
+    border-bottom: none;
+    display: inherit;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-shadow: 0 1px 1px #595959;
+    margin-top: 4rem;
+  }
+  .social{
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+  }
+  .postTitle{
+    font-size: 3.8rem;
+    line-height: 4.2rem;
+    margin-top: 3.5rem;
+    text-shadow: 0 1px 1px #595959;
+  }
+  .pre-desc{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .abs{
+    margin-top: .8rem;
+    margin-bottom: 4rem;
+    height: auto;
+    font-size: 1.8rem;
+  }
+  .nextPage{
+    position: static;
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 2.5rem;
+    font-family: '幼圆';
+    color: #fff;
+    background: rgba(0,0,0,0.6);
+  }
+  .nextPage a{
+    text-decoration: none;
+    color: #fcfcfc;
+    width: 50%;
+    display: block;
+    margin-left: 20%;
+    text-align: center;
+  }
+  /*post*/
+  .post-bg-container-mid{
+    width: 94%;
+    margin-top: 8rem;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 750px) {
+  html{
+    font-size: 16px;
+    background: #fff;
+  }
+  article{
+    width: 84%;
+  }
+  #myFullPage{
+    overflow: hidden;
+    position: relative;
+  }
+  .homePage{
+    height: 40rem;
+  }
+  .section{
+    overflow: hidden;
+  }
+  .ToHome{
+    display: none;
+  }
+  .title{
+    font-size: 3.2rem;
+    margin-top: 15rem;
+    margin-bottom: 1.5rem;
+  }
+  .intro1{
+    width: 86%;
+    margin: 0 auto;
+    display: block;
+    font-size: 1.7rem;
+    border-bottom: none;
+    display: inherit;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-shadow: 0 1px 1px #595959;
+    margin-top: 2.5rem;
+  }
+  .social{
+    width: 19rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
+  .social img{
+      width: 2rem;
+      margin: 0 .8rem;
+    }
+  .postTitle{
+    font-size: 3.8rem;
+    line-height: 4.2rem;
+    margin-top: 3.5rem;
+    text-shadow: 0 1px 1px #595959;
+  }
+  .pre-desc{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .abs{
+    margin-top: .8rem;
+    margin-bottom: 4rem;
+    height: auto;
+    font-size: 1.8rem;
+  }
+  .nextPage{
+    position: static;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: 2rem;
+    font-family: '幼圆';
+    color: #fff;
+    background: rgba(0,0,0,0.6);
+  }
+  .nextPage a{
+    text-decoration: none;
+    color: #fcfcfc;
+    width: 50%;
+    display: block;
+    margin-left: 20%;
+    text-align: center;
+  }
+  .post-bg-container-mid{
+    width: 96%;
+    margin-top: 9rem;
+  }
+}
