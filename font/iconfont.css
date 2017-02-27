@@ -17,6 +17,7 @@
 
 .icon-xiangxia{
   width: 100%;
+  height: 6%;
   text-align: center;
   position: absolute;
   bottom: 2.5rem;
@@ -25,5 +26,5 @@
 .icon-xiangxia:before {
   content: "\e751";
   color: #fff;
-  font-size: 4.375rem;
+  font-size: 300%;
 }

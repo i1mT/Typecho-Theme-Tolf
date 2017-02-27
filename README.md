@@ -1,3 +1,19 @@
+# 模板演示   演示图下面有模板设置方法
+### 演示地址：[www.iimt.me](http://www.iimt.me)
+>> ### 首页样式
+
+![首页样式](http://p1.bpimg.com/4899/9a7673d9b824fd84.jpg)
+>> ### 移动首页样式
+
+![移动首页样式](http://p1.bpimg.com/4899/a3114acfd339f8f9.jpg)
+
+>> ### 文章页脚样式
+
+![文章页脚](http://p1.bpimg.com/4899/2c9b32e245da7a30.jpg)
+
+>>>> ## 模板设置
+
+
 ## 模板必须将footer.php header.php script.js handler.js中的``` siteHomePageUrl ```替换为自己的首页地址
 
 ## 下面自定义
