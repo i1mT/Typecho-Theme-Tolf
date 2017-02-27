@@ -1,8 +1,9 @@
+  var siteHomePageUrl = "http://www.iimt.me/";
   var pageCount = $('.page-navigator li').length-1; //得到总页数
   var re = /\/page\/([\s\S]*)\//; //ajax获取内容正则表达式处理规则
   var locationHref = window.location.href;
   var curPageNum;
-  if(locationHref=="http://localhost/Blog/index.php" || locationHref=="http://localhost/Blog/"){
+  if(locationHref== (siteHomePageUrl+"index.php") || locationHref==siteHomePageUrl){
     curPageNum = 1;
   }else{
     curPageNum = parseInt(locationHref.match(re)[1]);
@@ -51,9 +52,9 @@
       var nextUrl;
       if(pageCount==curPageNum){
         text = "再次滑动进入上一页";
-        nextUrl = "http://localhost/Blog/index.php/page/"+ (curPageNum-1) +"/";
+        nextUrl = siteHomePageUrl+"index.php/page/"+ (curPageNum-1) +"/";
       }else{
-        nextUrl = "http://localhost/Blog/index.php/page/"+ (curPageNum+1) +"/";
+        nextUrl = siteHomePageUrl+"index.php/page/"+ (curPageNum+1) +"/";
       }
       var next = '<div class="nextPage">'+
       '<p>'+ text +'</p></div>';

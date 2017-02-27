@@ -1,6 +1,6 @@
 <?php
 // 说明：获取完整URL
-
+$siteHomePageUrl = "http://www.iimt.me/";
 function curPageURL(){
   $pageURL = 'http';
   // if ($_SERVER["HTTPS"] == "on") {
@@ -57,7 +57,7 @@ function curPageURL(){
   }
   </script>
   <div id="myFullPage">
-    <?php if(curPageURL()=="http://www.iimt.me/"||curPageURL()=="http://www.iimt.me/index.php"): //如果当前是首页的话 ?>
+    <?php if(curPageURL() == $siteHomePageUrl||curPageURL() == $siteHomePageUrl."index.php"): //如果当前是首页的话 ?>
     <!-- 第一屏 -->
     <div class="section homePage">
       <div class="home-filter"></div>

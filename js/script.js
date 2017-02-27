@@ -1,3 +1,4 @@
+var siteHomePageUrl = "siteHomePageUrl+";
 $(document).ready(function(){
   if (document.body.offsetWidth > 750) {
     $(function(){
@@ -17,7 +18,7 @@ $(document).ready(function(){
     var re = /\/page\/([\s\S]*)\//;//截取当前是第几页
     var locationHref = window.location.href;
     var curPageNum;
-    if(locationHref=="http://www.iimt.me/index.php" || locationHref=="http://www.iimt.me/"){
+    if(locationHref==siteHomePageUrl+"index.php" || locationHref==siteHomePageUrl){
       curPageNum = 1;
     }else{
       curPageNum = parseInt(locationHref.match(re)[1]);
@@ -26,9 +27,9 @@ $(document).ready(function(){
     var nextUrl;
     if(pageCount==curPageNum){
       text = "上一页";
-      nextUrl = "http://www.iimt.me/index.php/page/"+ (curPageNum-1) +"/";;
+      nextUrl = siteHomePageUrl+"index.php/page/"+ (curPageNum-1) +"/";;
     }else{
-      nextUrl = "http://www.iimt.me/index.php/page/"+ (curPageNum+1) +"/";
+      nextUrl = siteHomePageUrl+"index.php/page/"+ (curPageNum+1) +"/";
     }
     var next = '<div class="nextPage">'+
     '<a href="'+ nextUrl +'">'+ text +'</a></div>';
